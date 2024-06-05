@@ -1,4 +1,4 @@
-## enum
+# enum
 
 - 변수에 상태가 정해진 상수 값을 정의할 때 사용
 - 특정한 변수가 가진 값을 고정하면서 `정적 타입안정성(type safty)`을 보장
@@ -12,7 +12,7 @@ public eunm Status{
     , status3
 }
 ```
-# 일반 클래스와 다른점
+## 일반 클래스와 다른점
 - 일반 클래스의 경우, Object를 extends
 - enum 클래스의 경우, Object > java.lang.Enum을 extends하고 있다
     => 다중 상속 안되므로 `enum은 extends 할 수 없다.`
