@@ -58,7 +58,7 @@ public static void main(String[] args){
 public enum Status{
     /*
     status1,2 명칭은 바뀌더라도 값 유지하도록 유지보수 하고 싶다일 떄
-    주로 사용
+    주로 사용 
     */
     status1(100)
     , status2(200)
@@ -73,7 +73,7 @@ public enum Status{
 }
 ```
 ## Enum 비교 시 ==, equals를 사용할지?
-`== 사용하자!!`
+`== 사용하자!!`     
 
 * 근거
     - JVM 레벨에서 싱글톤으로 생성된다.
