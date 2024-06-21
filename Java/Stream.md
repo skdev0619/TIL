@@ -16,6 +16,10 @@ https://adjh54.tistory.com/110
 https://futurecreator.github.io/2018/08/26/java-8-streams/
 https://futurecreator.github.io/2018/08/26/java-8-streams-advanced/#google_vignette
 
+람다식 더 깔끔하게 사용하는 사례도 참고해보자
+https://khys.tistory.com/11
+
+
 
 
 
