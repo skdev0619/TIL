@@ -38,7 +38,7 @@ jdk.internal.loader.ClassLoaders$PlatformClassLoader@4eec7777
 null >> native라서 볼 수가 없음
 ```
 
-#### 로딩
+#### 1) 로딩
 - .class 파일을 읽고 적절한 바이너리 데이터 만들고 `메소드 영역`에 저장
 - FQCN(Full Qualified Class Name)
 	- ex) java.lang.String
@@ -56,7 +56,7 @@ public class Test{
 ```
 `Test.class로 접근이 가능`해서 static하게 접근이 가능
 
-#### 링크
+#### 2) 링크
 - 검증 : .class 파일 유효한지 파악(바이트 코드 조작 관련)
 - prepare : 클래스 변수(static 변수)와 기본 값에 필요한 메모리
 - Resolve : 심볼릭 메모리 레퍼런스를 메소드 영역에 있는 실제 레퍼런스로 교체
@@ -73,7 +73,7 @@ public class Test{
 ```
 위에 Book이 있어도 실제 book를 가리는게 아닌 논리적 레퍼런스이나
 heap의 실제 book을 가리키도록 실제 레퍼런스 교체하는 작업이다.
-#### 초기화
+#### 3) 초기화
 static 변수의 값을 할당(static 블럭도 이 떄 실행)
 
 #### 클래스로더 계층
