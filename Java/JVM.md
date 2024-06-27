@@ -1,6 +1,6 @@
 # JVM
 
-![alt text](JDK구조.png)
+![alt text](image/JDK구조.png)
 
 ## JVM
 - 자바 가상 머신으로 자바 바이트코드 파일을 OS 특화된 코드로 변환(인터프리터, JIT 컴파일러)하여 실행
@@ -19,13 +19,13 @@
 
 ---
 ## JVM 구조
-![alt text](JVM구조.png)
+![alt text](image/JVM구조.png)
 
 - 힙과 메소드는 공유 자원이다
 - 스택, PC(PC registers), 네이티브 메소드 스택은 스레드마다 생성된다.
 
 ### 클래스로더
-![alt text](클래스로더구조.png)
+![alt text](image/클래스로더구조.png)
 
 ```
 System.out.println(Main.class.getClassLoader());
